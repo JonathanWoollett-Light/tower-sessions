@@ -40,10 +40,10 @@ signed = ["tower-cookies/signed"]
 private = ["tower-cookies/private"]
 
 [workspace.dependencies]
-tower-sessions = { version = "=0.14.0", path = ".", default-features = false }
+tower-sessions = { path = ".", default-features = false }
 
-tower-sessions-core = { version = "=0.14.0", path = "tower-sessions-core", default-features = false }
-tower-sessions-memory-store = { version = "=0.14.0", path = "memory-store" }
+tower-sessions-core = { path = "tower-sessions-core", default-features = false }
+tower-sessions-memory-store = { path = "memory-store" }
 
 async-trait = "0.1.74"
 parking_lot = { version = "0.12.1", features = ["serde"] }
